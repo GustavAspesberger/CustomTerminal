@@ -1,0 +1,7 @@
+create_deploy()
+{
+  echo "000:$1-beta" > versions-beta.txt
+  echo "000:$1-uat" > versions-uat.txt
+  echo "000:$1-uat2" > versions-uat2.txt
+  echo "000:$1" > versions-prod.txt
+}

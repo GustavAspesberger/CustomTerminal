@@ -1,0 +1,13 @@
+zsh_folder(){
+    local color='%F{blue}'
+    local symbol="\ue62e"
+    local file="A"
+
+    if [ -e build.sbt ]
+        then symbol="\ue737"; color="%F{red}"; file="SBT"; echo -n "%{$color%} $file $symbol";
+    elif [ -e package.json ]
+        then symbol="\ue616"; color="%F{red}"; file="NPM"; echo -n "%{$color%} $file $symbol";
+    else
+        echo -n "%{$color%} $symbol"
+    fi
+}
