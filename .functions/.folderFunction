@@ -1,5 +1,5 @@
 zsh_folder(){
-    local color='%F{blue}'
+    local color='%F{red}'
     local symbol="\ue62e"
     local file="A"
 
