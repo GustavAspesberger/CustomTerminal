@@ -67,6 +67,6 @@ POWERLEVEL9K_TIME_BACKGROUND='013'
 #POWERLEVEL9K_TIME_FOREGROUND=''
 
 # Display on Terminal
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon status battery custom_folder newline root_indicator dir_writable time dir vcs)
-POWERLEVEL9K_DISABLE_RPROMPT=true
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(custom_folder)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir_writable time dir vcs)
+POWERLEVEL9K_DISABLE_RPROMPT=false
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(custom_folder battery status os_icon)
