@@ -1,4 +1,4 @@
-# Custom batery level Indicator
+# Custom battery level Indicator
 
 prompt_zsh_battery_level() {
 
