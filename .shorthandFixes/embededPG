@@ -1,0 +1,3 @@
+Make sure about the temp folder. Delete the embeded-pg folder.
+
+rm -rf /var/folders/ms/5t6bn_t96pl3_hn60_x5032w0000gp/T/embedded-pg

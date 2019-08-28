@@ -1,4 +1,3 @@
-source ~/.CustomTerminal/.functions/.batteryFunction
 source ~/.CustomTerminal/.functions/.folderFunction
 source ~/.CustomTerminal/.functions/.weather
 source ~/.CustomTerminal/.functions/.androidDeploy
