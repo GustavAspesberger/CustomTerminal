@@ -1,3 +1,6 @@
 /.env
 /.alias
 /.scripts
+/.aliases
+/.functions/.watch
+/.secret
