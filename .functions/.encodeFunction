@@ -1,0 +1,9 @@
+# shorthand functions to quickly encode and decode in base64
+
+en64() {
+    echo -n "$1" | base64
+}
+
+dn64() {
+    echo -n "$1" | base64 -d
+}
