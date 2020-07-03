@@ -1,3 +1,6 @@
-source ./.functions/.folderFunction
-source ./.functions/.weather
-source ./.functions/.watch
+source ~/.CustomTerminal/.functions/.folderFunction
+source ~/.CustomTerminal/.functions/.weather
+source ~/.CustomTerminal/.functions/.sourceFunctions
+
+source ~/.CustomTerminal/.aliases/.alias
+source ~/.CustomTerminal/.aliases/.kubernetes
