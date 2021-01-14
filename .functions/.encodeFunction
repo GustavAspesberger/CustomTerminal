@@ -13,3 +13,9 @@ gcc() {
     git pull
     git checkout -b $1
 }
+
+gc-dev() {
+    git checkout develop
+    git pull
+    git remote prune origin
+}
