@@ -19,3 +19,9 @@ gc-dev() {
     git pull
     git remote prune origin
 }
+
+gc-master() {
+    git checkout develop
+    git pull
+    git remote prune origin
+}
