@@ -7,21 +7,3 @@ en64() {
 dn64() {
     echo -n "$1" | base64 -d
 }
-
-gcc() {
-    git checkout develop
-    git pull
-    git checkout -b $1
-}
-
-gc-dev() {
-    git checkout develop
-    git pull
-    git remote prune origin
-}
-
-gc-master() {
-    git checkout develop
-    git pull
-    git remote prune origin
-}

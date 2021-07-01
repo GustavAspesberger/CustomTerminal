@@ -1,0 +1,33 @@
+# Git functions.
+gcc-dev() {
+    git checkout develop
+    git pull
+    git checkout -b $1
+}
+
+gcc-master() {
+    git checkout master
+    git pull
+    git checkout -b $1
+}
+
+gcp-dev() {
+    git checkout develop
+    git pull
+    git remote prune origin
+}
+
+gcp-master() {
+    git checkout master
+    git pull
+    git remote prune origin
+}
+
+git-handshake() {
+    git checkout develop
+    git pull
+    git checkout master
+    git pull
+    git checkout -b master-to-develop
+    git merge develop
+}
